@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Geo;
+    src: url(Fonts/Geo-Regular.ttf);
+}
+
+body, html
+{
+    padding: 0;
+    margin: 0;
+    font-family: Geo;
+}
+
+
+body
+{
+    background-color: whitesmoke;
+}
+
+.Icon
+{
+    position: fixed;
+    height: 10%;
+    top: 0;
+    left: 2.5%;
+    z-index: 3;
+}
+
+.Icon img
+{
+    height: 100%;
+}
+
+.Navbar
+{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: whitesmoke;
+    z-index: 2;
+}
+
+.Navbar ul
+{
+    list-style-type: none;
+}
+
+.Navbar ul li
+{
+    float: left;
+    margin: 0 10%;
+}
+
+.Navbar ul li a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.Navbar ul li a:hover
+{
+    text-decoration: underline;
+}
+
+.Sidebar
+{
+    position: fixed;
+    left: 0;
+    top: 10%;
+    width: 10%;
+    height: 100%;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.Sidebar h1
+{
+    text-align: center;
+}
+
+
+.Sidebar a
+{
+    color: black;
+    text-decoration: none;
+    border: whitesmoke 1px solid;
+    height: 10%;
+    width: 98%;
+    display: block;
+    margin: 0 0.5%;
+}
+
+.Sidebar a p
+{
+    margin: 15% 30%;
+    font-size: 21px;
+}
+
+.Sidebar a:hover
+{
+    text-decoration: underline;
+    border: rgba(0, 0, 0, 0.9) 3px solid;
+}
+
+
+.Content
+{
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    overflow-x: hidden;
+}
+
+
+.Weapon
+{
+    width: 100%;
+    height: 100%;
+}
+
+#WeaponIcon
+{
+    width: 75%;
+}
+
+#WeaponModel
+{
+    width: 75%;
+}
+
+
+.Weapon h1, .Weapon p
+{
+    display: inline;
+}
+
+#LoadNotice
+{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 3px #101010 solid;
+    top: 37.5%;
+    left: 37.5%;
+    transform: translate(-50%, -50%);
+}
+
+#LoadNotice h1, #LoadNotice p
+{
+    text-align: center;
+    display: block;
+}
+
+
+
+.Title
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline;
+    height: 10%;
+    width: 75%;
+}
+
+
+.Title h1
+{
+    font-size: 64px;
+}
+
+
+#CountryIcon {
+    height: 100%;
+    float: right;
+}
+
+
+#Desc
+{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    font-size: large;
+    width: 75%;
+}
+
+
+.StatsWindow
+{
+    position: fixed;
+    width: 20%;
+    height: 90%;
+    top: 10%;
+    right: 2.5%;
+    background-color: whitesmoke;
+}
+
+
+.Stat
+{
+    height: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+.Stat p
+{
+    font-size: 18px;
+    display: inline;
+}
+
+.ProgressBar
+{
+    height: 100%;
+    width: 100%;
+
+    float: right;
+    display: flex;
+    gap: 2px;
+}
+
+.Square_Filled
+{
+    width: 10%;
+    height: 18px;
+    background-color: #101010;
+    border: 2px #101010 solid;
+}
+
+.Square_Empty 
+{
+    width: 10%;
+    height: 18px;
+    border: 2px #101010 solid;
+}

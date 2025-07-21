@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapons</title>
+    <link rel="stylesheet" href="weapons.css">
+    <link rel="icon" href="Images/SF_Icon_website.png">
+</head>
+<body onload="LoadMobileVersion()">
+    <div class="Icon">
+        <img src="Images/SF_Icon_websitemono.png" alt="">
+    </div>
+    <div class="Navbar">
+        <ul>
+            <li><a href="">WEAPONS</a></li>
+            <li><a href="">ARMOR</a></li>
+            <li><a href="">STARSHIPS</a></li>
+        </ul>
+    </div>
+    <div class="Sidebar">
+        <h1>RIFLES</h1>
+        <a href="" data-index="0"><p>AK-72</p></a>
+        <a href="" data-index="1"><p>AK-47</p></a>
+        <a href="" data-index="2"><p>AR-15</p></a>
+        <a href="" data-index="3"><p>M28</p></a>
+        <h1>PISTOLS</h1>
+        <a href="" data-index="4"><p>M9</p></a>
+        <a href="" data-index="5"><p>357-Magnum</p></a>
+    </div>
+    <div class="Content">
+        <div class="Weapon">
+            <div id="LoadNotice">
+                <h1 id="Percentage">0%</h1>
+                <p>Loading 3D model.</p>
+            </div>
+            <div id="WeaponModel"></div>
+            <img src="" alt="" id="WeaponIcon">
+            <div class="Title">
+                <h1 id="WeaponName">WEAPON NAME</h1>
+                <img src="" alt="" id="CountryIcon">
+            </div>
+            <p id="Desc">Weapon Description</p>
+        </div>
+    </div>
+    <div class="StatsWindow">
+        <h1>WEAPON STATS</h1>
+        <div class="Stat">
+            <p class="StatHeader">DAMAGE: 125</p>
+            <div class="ProgressBar"></div>
+        </div>
+
+        <div class="Stat">
+            <p class="StatHeader">RANGE: 250</p>
+            <div class="ProgressBar"></div>
+        </div>
+
+        <div class="Stat">
+            <p class="StatHeader">RECOIL: 20</p>
+            <div class="ProgressBar"></div>
+        </div>
+
+        <div class="Stat">
+            <p class="StatHeader">DPS: 10</p>
+            <div class="ProgressBar"></div>
+        </div>
+    </div>
+    <script type="module" src="weapons.js"></script>
+    <script type="module" src="model.js"></script>
+</body>
+</html>
